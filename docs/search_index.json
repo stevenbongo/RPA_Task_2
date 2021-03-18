@@ -1,0 +1,1 @@
+[["references.html", "References", " References Automation Anywhere RPA solution은 정규표현식을 지원하지 않기 때문에, String handling의 경우 Script에 의존적이다. VBscript는 WSH를 통한 COM 사용으로, Excel, PPt, IE 등의 Microsoft 제품 handling에 매우 강력하다. 아래에 VBscript를 배우기 좋은 사이트를 소개한다. https://www.guru99.com/introduction-to-vbscript.html "]]

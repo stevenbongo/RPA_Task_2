@@ -1,0 +1,72 @@
+--- 
+title: "RPA TASK 일일통지 진행현황 모니터링"
+author: "윤창식"
+date: "2020-11-03"
+site: bookdown::bookdown_site
+documentclass: book
+bibliography: [book.bib, packages.bib]
+biblio-style: apalike
+link-citations: yes
+description: " RPA 업무 소개 01 "
+---
+
+# Introduction
+
+**일일통지 진행현황 모니터링**은 **SAP**에서 Excel data를 조회, 추출, 가공한 뒤, Template 파일에 적용하여 담당자에게 메일로 보내는 자동화업무이다. 
+본 업무의 flow를 아래에 간략히 소개하도록한다. 
+
+## Task Flow
+
+### Data 조회 
+
+![Figure.1 SAP T-code 입력 / Data 조회 ](./img/sap_search.png){width=0.5%,height=0.5%}
+
+```
+SAP에 로그인 --> T-code 입력 --> 속성값 입력 뒤 data 조회 
+
+```
+
+### Data 추출 
+
+![Figure.2 Data export](./img/data_export.png){width=0.5%,height=0.5%}
+```
+조회한 데이터를 Excel 파일로 저장
+
+```
+
+### Template 파일에 복사 
+
+![Figure.3 Data Copy](./img/template_file_copy.png){width=0.5%,height=0.5%}
+```
+SAP에서 다운받은 Excel data를 고객이 미리 준비한 Template 파일에 적절한 형식으로 Mapping  
+
+```
+
+### 요약 sheet 내용을 PNG 파일로 저장 
+
+![Figure.4 Table 캡처 및 저장](./img/summary_png.png){width=0.5%,height=0.5%}
+
+```
+Template 파일로의 Data mapping이 완료되면, 요약 sheet의 내용이 자동변경
+요약 sheet의 Table을 캡처하여 PNG 파일로 저장 
+
+```
+
+### 업무결과 메일전송
+
+![Figure.5 파일 첨부 및 메일전송](./img/mail_sending.png){width=0.5%,height=0.5%}
+
+```
+업데이트한 Template 파일 첨부 및 본문 작성 / 본문에 저장했던 PNG 파일 붙임
+```
+
+
+
+
+
+```{r include=FALSE}
+# automatically create a bib database for R packages
+knitr::write_bib(c(
+  .packages(), 'bookdown', 'knitr', 'rmarkdown'
+), 'packages.bib')
+```
