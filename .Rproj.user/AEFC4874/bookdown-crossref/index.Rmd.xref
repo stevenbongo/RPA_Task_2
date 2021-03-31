@@ -1,8 +1,7 @@
 h1:introduction Introduction
 h2:task-flow Task Flow
-h3:data-조회 Data 조회
+h3:url-접속 Url 접속
 h3:data-추출 Data 추출
-h3:template-파일에-복사 Template 파일에 복사
-h3:요약-sheet-내용을-png-파일로-저장 요약 sheet 내용을 PNG 파일로 저장
-h3:업무결과-메일전송 업무결과 메일전송
+h3:통계량-계산 통계량 계산
+h3:template-파일에-data-mapping Template 파일에 Data Mapping
 

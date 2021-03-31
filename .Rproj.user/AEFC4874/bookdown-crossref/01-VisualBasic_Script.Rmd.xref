@@ -1,6 +1,7 @@
 h1:intro VBscript Code
 h2:vbscript-code-review_01 VBScript code review_01
-h3:excel의-table-캡처-및-이미지-저장-기능 Excel의 Table 캡처 및 이미지 저장 기능
-h2:vbscript-code-review_02 VBScript code review_02
-h3:outlook-메일-전송-본문에-파일-첨부-및-html-문법-적용 Outlook 메일 전송 : 본문에 파일 첨부 및 HTML 문법 적용
+h3:http-통신-및-url-접속 HTTP 통신 및 url 접속
+h3:data-추출 Data 추출
+h3:get_tabledata-함수 Get_tableData 함수
+h3:rpa-solution과-script-조합 RPA Solution과 Script 조합
 
